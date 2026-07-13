@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePipeline Demo</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+            text-align:center;
+            background:rgba(255,255,255,0.1);
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.4);
+        }
+
+        h1{
+            color:#00ffcc;
+            margin-bottom:20px;
+        }
+
+        h2{
+            color:#ffd700;
+            margin-bottom:15px;
+        }
+
+        p{
+            font-size:18px;
+            margin:10px 0;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 25px;
+            background:#00ffcc;
+            color:#000;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#ffd700;
+        }
+
+        footer{
+            margin-top:30px;
+            font-size:14px;
+            color:#ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 AWS CI/CD Pipeline Project</h1>
+
+    <h2>GitHub → CodePipeline → CodeBuild → S3 → EC2</h2>
+
+    <p>Congratulations!</p>
+
+    <p>Your HTML project has been successfully built using AWS CodeBuild.</p>
+
+    <p>Artifacts are stored in an S3 Bucket and deployed to an EC2 instance.</p>
+
+    <a href="#" class="btn">Deployment Successful</a>
+
+    <footer>
+        <p>Created by Janhavi Borole</p>
+        <p>AWS DevOps Demo Project</p>
+    </footer>
+</div>
+
+</body>
+</html>
